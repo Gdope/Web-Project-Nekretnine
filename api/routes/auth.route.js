@@ -1,11 +1,10 @@
-import express, { Router } from "express";
+import express from "express";
 import {
   google,
-  signin,
   signOut,
+  signin,
   signup,
 } from "../controllers/auth.controller.js";
-import { sign } from "jsonwebtoken";
 
 const router = express.Router();
 
